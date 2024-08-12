@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card img {
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.row.g-3 > .col-md-4 {
+  display: flex;
+}
+
+.row.g-3 > .col-md-4 > .card {
+  width: 100%;
+}
